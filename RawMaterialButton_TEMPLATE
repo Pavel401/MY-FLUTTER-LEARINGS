@@ -1,0 +1,24 @@
+\\BUTTONS
+--RAWMATERIALBUTTON
+cODE-
+RawMaterialButton(
+          onPressed: (){},
+          fillColor: Colors.pink,
+          splashColor: Colors.purple,
+          child: Row(
+           mainAxisSize: MainAxisSize.min, 
+           children: [
+             Icon(
+               Icons.functions,
+               color: Colors.green,
+               size: 32,
+               
+               ),
+               SizedBox(width: 10.0,),
+               Text("CALCULATE",style: TextStyle(color:Colors.white,fontSize:20.0,),),
+               
+           ],
+
+          ),
+          shape: UnderlineInputBorder(),
+        )
